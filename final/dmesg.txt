@@ -1,0 +1,83 @@
+[    0.407116] ACPI: bus type USB registered
+[    0.407116] usbcore: registered new interface driver usbfs
+[    0.407116] usbcore: registered new interface driver hub
+[    0.407116] usbcore: registered new device driver usb
+[    0.541791] pci 0000:00:1a.0: quirk_usb_early_handoff+0x0/0x6a0 took 16205 usecs
+[    0.561787] pci 0000:00:1d.0: quirk_usb_early_handoff+0x0/0x6a0 took 19504 usecs
+[    0.602048] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    0.602253] ehci-pci 0000:00:1a.0: new USB bus registered, assigned bus number 1
+[    0.621654] ehci-pci 0000:00:1a.0: USB 2.0 started, EHCI 1.00
+[    0.621739] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+[    0.621743] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.621746] usb usb1: Product: EHCI Host Controller
+[    0.621748] usb usb1: Manufacturer: Linux 5.15.0-97-generic ehci_hcd
+[    0.621749] usb usb1: SerialNumber: 0000:00:1a.0
+[    0.621919] hub 1-0:1.0: USB hub found
+[    0.622279] ehci-pci 0000:00:1d.0: new USB bus registered, assigned bus number 2
+[    0.641655] ehci-pci 0000:00:1d.0: USB 2.0 started, EHCI 1.00
+[    0.641747] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+[    0.641751] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.641754] usb usb2: Product: EHCI Host Controller
+[    0.641755] usb usb2: Manufacturer: Linux 5.15.0-97-generic ehci_hcd
+[    0.641757] usb usb2: SerialNumber: 0000:00:1d.0
+[    0.641925] hub 2-0:1.0: USB hub found
+[    0.642147] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    0.642171] uhci_hcd: USB Universal Host Controller Interface driver
+[    1.013635] usb 1-1: new high-speed USB device number 2 using ehci-pci
+[    1.020679] usb 2-1: new high-speed USB device number 2 using ehci-pci
+[    1.172632] usb 1-1: New USB device found, idVendor=8087, idProduct=0024, bcdDevice= 0.00
+[    1.172640] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    1.172922] hub 1-1:1.0: USB hub found
+[    1.176631] usb 2-1: New USB device found, idVendor=8087, idProduct=0024, bcdDevice= 0.00
+[    1.176638] usb 2-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    1.181391] hub 2-1:1.0: USB hub found
+[    1.295744] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 3
+[    1.329987] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 4
+[    1.329993] xhci_hcd 0000:00:14.0: Host supports USB 3.0 SuperSpeed
+[    1.332431] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+[    1.332437] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.332439] usb usb3: Product: xHCI Host Controller
+[    1.332441] usb usb3: Manufacturer: Linux 5.15.0-97-generic xhci-hcd
+[    1.332443] usb usb3: SerialNumber: 0000:00:14.0
+[    1.332986] hub 3-0:1.0: USB hub found
+[    1.342213] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.15
+[    1.342220] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.342222] usb usb4: Product: xHCI Host Controller
+[    1.342224] usb usb4: Manufacturer: Linux 5.15.0-97-generic xhci-hcd
+[    1.342226] usb usb4: SerialNumber: 0000:00:14.0
+[    1.343789] hub 4-0:1.0: USB hub found
+[    1.460383] usb 1-1.2: new full-speed USB device number 3 using ehci-pci
+[    1.488408] usb 2-1.6: new high-speed USB device number 3 using ehci-pci
+[    1.572569] usb 1-1.2: New USB device found, idVendor=046d, idProduct=c52f, bcdDevice=30.00
+[    1.572588] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    1.572595] usb 1-1.2: Product: USB Receiver
+[    1.572599] usb 1-1.2: Manufacturer: Logitech
+[    1.605831] usb 2-1.6: New USB device found, idVendor=5986, idProduct=0295, bcdDevice=14.11
+[    1.605847] usb 2-1.6: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    1.605851] usb 2-1.6: Product: Lenovo EasyCamera
+[    1.605855] usb 2-1.6: Manufacturer: Vimicro corp.
+[    1.652413] usb 1-1.4: new high-speed USB device number 4 using ehci-pci
+[    1.761972] usb 1-1.4: New USB device found, idVendor=0bda, idProduct=0129, bcdDevice=39.60
+[    1.761992] usb 1-1.4: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[    1.761999] usb 1-1.4: Product: USB2.0-CRW
+[    1.762004] usb 1-1.4: Manufacturer: Generic
+[    1.762009] usb 1-1.4: SerialNumber: 20100201396000000
+[    1.773446] usbcore: registered new interface driver rtsx_usb
+[    2.208695] usbcore: registered new interface driver usbhid
+[    2.208701] usbhid: USB HID core driver
+[    2.215913] input: Logitech USB Receiver as /devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.2/1-1.2:1.0/0003:046D:C52F.0001/input/input7
+[    2.216765] hid-generic 0003:046D:C52F.0001: input,hidraw0: USB HID v1.11 Mouse [Logitech USB Receiver] on usb-0000:00:1a.0-1.2/input0
+[    2.217123] input: Logitech USB Receiver Consumer Control as /devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.2/1-1.2:1.1/0003:046D:C52F.0002/input/input8
+[    2.278964] hid-generic 0003:046D:C52F.0002: input,hiddev0,hidraw1: USB HID v1.11 Device [Logitech USB Receiver] on usb-0000:00:1a.0-1.2/input1
+[    2.316788] logitech-djreceiver 0003:046D:C52F.0001: hidraw0: USB HID v1.11 Mouse [Logitech USB Receiver] on usb-0000:00:1a.0-1.2/input0
+[    2.422373] logitech-djreceiver 0003:046D:C52F.0002: hiddev0,hidraw1: USB HID v1.11 Device [Logitech USB Receiver] on usb-0000:00:1a.0-1.2/input1
+[    2.483580] input: Logitech Wireless Mouse PID:4008 Mouse as /devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.2/1-1.2:1.1/0003:046D:C52F.0002/0003:046D:4008.0003/input/input11
+[    2.484424] input: Logitech Wireless Mouse PID:4008 Consumer Control as /devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.2/1-1.2:1.1/0003:046D:C52F.0002/0003:046D:4008.0003/input/input12
+[    2.485056] hid-generic 0003:046D:4008.0003: input,hidraw2: USB HID v1.11 Mouse [Logitech Wireless Mouse PID:4008] on usb-0000:00:1a.0-1.2/input1:1
+[    2.583004] input: Logitech M185/M225 as /devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.2/1-1.2:1.1/0003:046D:C52F.0002/0003:046D:4008.0003/input/input16
+[    2.583214] logitech-hidpp-device 0003:046D:4008.0003: input,hidraw2: USB HID v1.11 Mouse [Logitech M185/M225] on usb-0000:00:1a.0-1.2/input1:1
+[   29.960615] usb 2-1.6: Found UVC 1.00 device Lenovo EasyCamera (5986:0295)
+[   29.965557] usb 2-1.6: Failed to query (GET_INFO) UVC control 11 on unit 1: -32 (exp. 1).
+[   29.966302] usb 2-1.6: Failed to query (GET_INFO) UVC control 13 on unit 1: -32 (exp. 1).
+[   29.972866] input: Lenovo EasyCamera: Lenovo EasyC as /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.6/2-1.6:1.0/input/input27
+[   29.972946] usbcore: registered new interface driver uvcvideo
